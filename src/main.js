@@ -1,54 +1,79 @@
-import {rickandmorty} from './data.js';
-
 import data from './data/rickandmorty/rickandmorty.js';
+import {filterAlive, filterDead, filterFemale, filterMale, orderAz, } from './data.js';
 
-console.log(rickandmorty, data);
+document.addEventListener('DOMContentLoaded',()=>{
+    showCards(char)
+})
 
-const $dataCards= document.querySelector(".information"),
-      $template= document.getElementById("card").content,
-      $fragment= document.createDocumentFragment(),
-      char= data.results;
+const char = data.results;
 
-      char.forEach( (allData) => {
-          $template.querySelector("h2").textContent = allData.name;
-          $template.querySelector("img").setAttribute("src",allData.image);
-          $template.querySelector(".a1").textContent = allData.status;
-          $template.querySelector(".a2").textContent = allData.species;
-          $template.querySelector(".a3").textContent = allData.type;
-          $template.querySelector(".a4").textContent = allData.gender;
-          $template.querySelector(".a5").textContent = allData.origin.name;
-          $template.querySelector(".a6").textContent = allData.location.name;
+    function Card(personaje) {
+        return `
+                <div class="information" >
+                   <h2>${personaje.name}</h2>
+                   <img src= "${personaje.image}"
+                   <br>
+                   <p>Status: ${personaje.status}</p>
+                   <p>Specie: ${personaje.species}</p>
+                   <p>Gender: ${personaje.gender}</p>
+                   <p>Origin: ${personaje.origin.name}</p>
+                <p>Location: ${personaje.location.name}</p>
+                </div>
+        
+               `
+    }
 
-          let $clone = document.importNode($template, true);
-            $fragment.appendChild($clone);
-      });
+    function showCards(personajes) {
+        const Cards = document.getElementById('container')
+        
+        let conteiner = ''
+        personajes.forEach((personaje) =>  {
+            conteiner += Card(personaje)
+        });
+       
+        Cards.innerHTML = conteiner;
 
-      $dataCards.appendChild($fragment);
-      //console.log($dataCards);
-
-
-
-
-     /* let tarjetas=document.getElementById("tarjetas")
-let tarjets =""
-let pokemons = data.pokemon.forEach(p=>{
-    tarjets +=`
-    <article class="pokemon">
-    <img src ="${p.image}">
-    <h2 class = "card title">${p.name}</p>
-    <p class = "card-text">${p.num}</p
-    <p class = "card-text">${p.type}</p>
-    </article>
-    `
-    console.log(tarjets)
-    tarjetas.innerHTML=tarjets;
-});
-
-console.log(pokemons);
-
-console.log(data);*/
+    }
 
 
+    let bottonAlive = document.getElementById("alive")
+        bottonAlive.addEventListener("click", () => {
+        const personajes = filterAlive(char, 'Alive')
+         
+          showCards(personajes)
 
-      
+    });
+
+    let bottonDead = document.getElementById("dead")
+        bottonDead.addEventListener("click", () => {
+        const personajes = filterDead(char, 'Dead')
+         
+          showCards(personajes)
+
+    });
+
+    let bottonFemale = document.getElementById("female")
+        bottonFemale.addEventListener("click", () => {
+        const personajes = filterFemale(char, 'Female')
+         
+          showCards(personajes)
+
+    });
+
+    let bottonMale = document.getElementById("male")
+        bottonMale.addEventListener("click", () => {
+        const personajes = filterMale(char, 'Male')
+         
+          showCards(personajes)
+        
+
+    });
+
+    let bottonABC = document.getElementById("abc")
+        bottonABC.addEventListener("click", () => {
+        const personajes = orderAz(char,)
+         
+          showCards(personajes)
+
+    });
 

@@ -1,121 +1,134 @@
+/*Info general*/
 @import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@300;400&display=swap');
- body {
-     background:linear-gradient(160deg, #4888B9, #45BD79, #61C362, #A4D02A, #FEC600);
+body {
+background:linear-gradient(160deg, #4888B9, #45BD79, #61C362, #A4D02A, #FEC600);
+background-attachment: fixed;
      }
 
-.image {
-    background-image: url(https://hipertextual.com/files/2017/07/rick-morty-.jpg);
-    box-sizing:border-box;
-    display:row;
-    justify-content: space-around;
-    margin-right: 25%;
-    margin-left: 5%;
-    max-width: 40%;
-    max-height: 40%;
-}
-#info{ 
-    display: flex;
-    flex-direction:row;
-    justify-content: space-around;
-    margin-right: 25%;
-    margin-left: 5%;
-    font-size:1.5vw;
-    font-family: 'Grandstander', cursive;
-    font-weight: 300;
-    
- }
-
- #about{ 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-right: 25%;
-    margin-left: 5%;
-    font-size:1.5vw;
-    font-family: 'Grandstander', cursive;
-    font-weight: 400;
-    
- }
-
- .form{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-left: 80%;
-    font-size:1 vw;
-    font-family: 'Grandstander', cursive;
-    font-weight: 300;
-    padding: 1rem 0;
-    width: 10rem;
-    text-align: center;
-    margin: .5rem;
-    background-color: #CDF267;
-}
-
- #filter{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    margin-left: 80%;
-    font-size:1 vw;
-    font-family: 'Grandstander', cursive;
-    font-weight: 300;
- }
- 
- #order{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    margin-left: 80%;
-    font-size:1 vw;
-    font-family: 'Grandstander', cursive;
-    font-weight: 300;
-    
- }
-
- #agregate{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin-left: 80%;
-    font-size:1 vw;
-    font-family: 'Grandstander', cursive;
-    font-weight: 300;
- }
- #dataPlus{
-    display: inline-block;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-content: flex-end;
-    margin-left: 80%;
-    font-size:1 vw;
-    font-family: 'Grandstander', cursive;
-    font-weight: 300;
-    padding: 1rem 0;
-    width: 10rem;
-    text-align: center;
-    margin: 1rem;
-    background-color: #CDF267;
- }
- #dataPlus:hover{
-    cursor: pointer;
-    transition: transform 150ms;
-    transform: scale(1.2);
-    background: black;
-    color: #CDF267;
-
- }
-
-#footer{
-  position: fixed;
-  left: 0;
-  bottom: 0;
+header{
   width: 100%;
-  height: 6%;
-  background-color:#CDF267;
-  color: #6A6A6A;
+  height:20%;
+   font-family: 'Grandstander';
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  background: #000000;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.space{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height:10%;
+
+}
+
+/* template 1*/
+ #container{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  line-height: .4vw; 
+} 
+.information{
+   text-align: center;
+   font-family: 'Grandstander';
+   flex-direction: wrap;
+   line-height: .4vw;
+   background: #CDF267; 
+  max-width: 50%;
+   max-height: 25% ;
+   margin: 2rem;
+   padding: 2rem;
+   border-radius: .5rem;
+   font-size:1 vw; 
+   font-weight: 300;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+} 
+.information:hover{
+  cursor: pointer;
+  transition: transform 150ms;
+  transform: scale(1);
+  background: black;
+  color: #CDF267;
+  border-radius: 5px;
+  }
+.information name{
+  font-size:.8 vw; 
+  font-family: 'Grandstander';
+  font-weight: 400;
   text-align: center;
-  font-size:.5 vw;
+  } 
+.information img{
+  max-width: 60%;
+  border-radius: 1rem;
+
+}
+
+.character{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size:1vw;
+  color: #CDF267;
+
+}
+
+.buttonFunction{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonStyle{
+font-size:1vw;
+font-family: 'Grandstander', cursive;
+font-weight: 300;
+padding: 1rem 0;
+width: 7rem;
+text-align: center;
+margin: .5rem;
+background-color: black;
+color: #CDF267;
+border:none;
+border-radius: 5px;
+}
+
+.buttonStyle:hover{
+cursor: pointer;
+transition: transform 150ms;
+transform: scale(1.2);
+background: #CDF267;
+color: black;
+border-radius: 5px;
+}
+
+
+/*footer*/ 
+
+.footer{
+  position: fixed;
+  bottom:0;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items:flex-end;
+  width: 100%;
+  height:5%;
+  background-color:black;
+  color: #CDF267;
+  text-align: center;
+  font-size:1.5 vw;
   font-family: 'Grandstander', cursive;
   font-weight: 300;
- } 
+   } 

@@ -1,50 +1,42 @@
+<!DOCTYPE html>
+<html>
 <head>
   <meta name="viewport" content="width=device-width,initial-scale=1" charset="utf-8">
   <title>Data Lovers</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+  <header>
+  <div id="buttons1">
+      <p class="character">Ver personajes por estatus</p>
+    <div class="buttonFunction">
+      <button class="buttonStyle" id="alive"> Vivo </button>
+      <button class="buttonStyle" id="dead"> Muerto </button>
+    </div>
+  </div>
+  <div class="space">  </div>
+  <div id="buttons2">
+    <p class="character">Ver personajes por género</p>
+    <div class="buttonFunction">
+      <button class="buttonStyle" id="female"> Mujer</button>
+      <button class="buttonStyle" id="male"> Hombre </button>
+    </div>
+  </div>
+
+  <div class="buttons3">
+  <p class="character">Ordernar alfabéticamente</p>
+  <div class="buttonFunction">
+
+    <button class="buttonStyle" id="abc"> De la A la Z</button>
+  </div>
+</div>
+</header>
 
 <body>
-  <div id="root"></div>
- <!-- Aquí inicia nuestra dada-->
- <div class="information">
- <template id="card">
-    
-    <div class="information">
-      <h2 class="name"></h2>
-      <img src=" "> 
-      <p class="descr"> Descripción</p>
-      <p class="a1"></p>
-      <p class="a2"></p>
-      <p class="a3"></p>
-      <p class="a4"></p>
-      <p class="a5"></p>
-      <p class="a6"></p>
-      </div>
-  </template>
-</div> 
-    <aside>
-    <div id="filter">
-      <p>Filtrar personajes por:</p>
-      <select class="form">
-        <option> Origen </option>
-        <option> Estatus </option>
-        <option> Genero </option>
-      </select>
-    </div>
-    <div id="order">
-      <p>Ordenar personajes por:</p>
-      <select class="form">
-        <option>Capítulos</option>
-        <option>Order alfabético a-z</option>
-        <option> Especie </option>
-      </select>
-    </div>
-    <div id="agregate">
-      <button id="dataPlus">¡Descubre cuál personaje aparece en más capítulos!</button>
-    </div>
-  </aside> 
-  <footer id="footer"> DataLovers Laboratoria CDMX </footer>
+<div id="container" class="container">
+</div>
+ 
+
   <script src="main.js" type="module"></script>
 </body>
+<footer class="footer"> Laboratoria DataLovers MX010 Jazmín y Mariliz </footer>
 </html>

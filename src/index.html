@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html>
+
 <head>
   <meta name="viewport" content="width=device-width,initial-scale=1" charset="utf-8">
   <title>Data Lovers</title>
@@ -5,39 +8,43 @@
 </head>
 
 <body>
-  <div id="root">
-    <div class="links"> links de contacto y extras </div>
+  <div class="container">
+
+    <div class="head">
+
+      <div class="link">
+        <a class="links" href="https://rickandmorty.com/"> Ir al sitio oficial de la serie </a>
+      </div>
+
+      <div class="link">
+        <a href="https://www.netflix.com/browse" class="links" > Ve la serie ahora </a>
+      </div>
+    </div>
+
+  <div class="imgAndInfo">  
+    <div class="image2">
+      <br>
+      <img class="imagerm" src="./rmGIF.gif">
+    </div>
+
+    <div class="info">
+          <p class="text"> Rick y Morty es una serie de televisión estadounidense de animación para adultos creada por
+          Justin Roiland y Dan Harmon en 2013 para Adult Swim. La serie sigue las desventuras de un científico, Rick, y
+          su fácilmente
+          influenciable nieto, Morty, quienes pasan el tiempo entre la vida doméstica y los viajes espaciales,
+          temporales
+          e intergalácticos. <br> Descubre en esta web toda la información que necesitas sobre los personajes de la
+          serie.</p>
+    </div>
+  
+    <div class="button">
+        <a href="historia2.html"><button class="Next" id="go"> Siguiente </button></a>  
+        <!-- <button class="Next" id="go"> Siguiente </button> -->
+      </div>
+    </div>
+      <footer class="footer"> Laboratoria DataLovers MX010 Jazmín y Mariliz </footer>
+  <script src="main.js" type="module"></script> 
   </div>
-  <div class="image"> <!-- URL -->  </div>
-  <div class="info">
-    <div id="text">
-      <p class="text"> Rick y Morty es una serie de televisión estadounidense de animación para adultos creada por
-        Justin Roiland y Dan Harmon en 2013 para Adult Swim. La serie sigue las desventuras de un científico, Rick, y su fácilmente
-        influenciable nieto, Morty, quienes pasan el tiempo entre la vida doméstica y los viajes espaciales, temporales
-        e intergalácticos.</p>
-      <p class="about">Descubre en esta web toda la información que necesitas sobre los personajes de la serie. </p>
-    </div>
-    <div id="agregate">
-      <button class="Next" id="go" onclick=location.href="historia2.html"> Siguiente </button>
-    </div>
-    <template id="card">
-      <div class="information">
-        <h2 class="name"></h2>
-        <img src=" "> 
-        <p class="descr"> Descripción</p>
-        <p class="a1"></p>
-        <p class="a2"></p>
-        <p class="a3"></p>
-        <p class="a4"></p>
-        <p class="a5"></p>
-        <p class="a6"></p>
-        </div>
-    </template>
-
-
-
-
-    <footer class="footer"> DataLovers Laboratoria CDMX </footer>
-    <script src="main.js" type="module"></script>
 </body>
+
 </html>
