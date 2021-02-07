@@ -52,7 +52,8 @@ Nuestros prototipos fueron testeados primeramente con un grupo de personas ajena
 
 
 #### Prototipos de alta fidelidad
-Como resultado de la sesión de test y feedback con las duplas de Laboratoria, surgieron algunos cambios en cuanto al diseño de menú, que, por ser ya mínimos, se iteraron en la primera versión de nuesto prototipo de alta fidelidad diseñado en Figma. [puedes verlo aquí](https://www.figma.com/file/rmiMSJjHgkZPMUMm5oX3yW/Rick-and-Morty?node-id=107%3A2)
+Como resultado de la sesión de test y feedback con las duplas de Laboratoria, surgieron algunos cambios en cuanto al diseño de menú, que, por ser ya mínimos, se iteraron en la primera versión de nuesto prototipo de alta fidelidad diseñado en Figma. [puedes verlo aquí](https://www.figma.com/proto/rmiMSJjHgkZPMUMm5oX3yW/Rick-and-Morty?node-id=107%3A27&scaling=scale-down) 
+
 
 Posteriormente, iteramos una última vez el diseño de nuestro menú para presentarlo en la última Demo del proyecto, cambiando su posición lateral a superior.  
   
