@@ -42,7 +42,8 @@ Las historias de usuario que abarca la página web son:
 
 
 
-### Proceso
+## 4. Proceso
+
 #### Prototipos de baja fidelidad
 Nuestros prototipos fueron testeados primeramente con un grupo de personas ajenas a Laboratoria y al proyecto, mediante una encuesta en donde se preguntaba si conocían la serie, si les parecía claro el flujo de la web, si pensaban que era complicado entender la funcionalidad de los botones y lo que hacía cada uno. De ese testeo, se arreglaron los detalles necesarios y después fue testeada con 2 duplas de Laboratoria que tambien se encontraban en el proyecto. 
 
