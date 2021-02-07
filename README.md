@@ -9,14 +9,14 @@
 
 ***
 
-## 1. Preámbulo
+## 1. Preámbulo  📖
 
 [Rick and Morty](https://rickandmorty.com/) es una serie estadounidense creada en el 2013 por Justin Roiland y Dan Harmon.
 Trata sobre las aventuras de Rick, un científico excentrico y Morty, su nieto. 
 
 Decidimos emplear ese data set porque nos causó curiosidad de ver la serie, además de la versatilidad que ofrece la data de este tema. 
 
-## 2. Resumen del proyecto
+## 2. Resumen del proyecto 📋
 Esta página web permitirá al usuario visualizar toda la información relacionada con los personajes de Rick and Morty. 
 Además, te permite ver a los personajes filtrados por:
 
@@ -31,7 +31,7 @@ Además, te permite ver a los personajes filtrados por:
 Tambien podrás visualizar los personajes en orden alfabético de la A a la Z
 
 
-## 3. Historias de usuario
+## 3. Historias de usuario ⚙️
 
 Las historias de usuario que abarca la página web son:
 1. Como seguidora (o potencial seguidora) de Rick and Morty, quisiera ver un resumen general de la trama para, posteriormente, visualizar la data de personajes
@@ -42,7 +42,7 @@ Las historias de usuario que abarca la página web son:
 
 
 
-## 4. Proceso 
+## 4. Proceso 🛠️
 
 #### Prototipos de baja fidelidad
 Nuestros prototipos fueron testeados primeramente con un grupo de personas ajenas a Laboratoria y al proyecto, mediante una encuesta en donde se preguntaba si conocían la serie, si les parecía claro el flujo de la web, si pensaban que era complicado entender la funcionalidad de los botones y lo que hacía cada uno. De ese testeo, se arreglaron los detalles necesarios y después fue testeada con 2 duplas de Laboratoria que tambien se encontraban en el proyecto. 
