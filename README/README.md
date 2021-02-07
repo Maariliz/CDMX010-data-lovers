@@ -47,7 +47,7 @@ Las historias de usuario que abarca la página web son:
 Nuestros prototipos fueron testeados primeramente con un grupo de personas ajenas a Laboratoria y al proyecto, mediante una encuesta en donde se preguntaba si conocían la serie, si les parecía claro el flujo de la web, si pensaban que era complicado entender la funcionalidad de los botones y lo que hacía cada uno. De ese testeo, se arreglaron los detalles necesarios y después fue testeada con 2 duplas de Laboratoria que tambien se encontraban en el proyecto. 
 
 <img src="/README/prototipo.png" alt="Primer prototipo"/>
-<img src="/README/segundoprototipo.png" alt="Segundo prototipo"/>
+<img src="/README/segundoprototipo.jpg" alt="Segundo prototipo"/>
 
 
 #### Prototipos de alta fidelidad
@@ -59,4 +59,4 @@ Posteriormente, iteramos una última vez el diseño de nuestro menú para presen
 ### Resultados
 ![pantallaprincipal](README/final1.png)
 ![data](README/final2.png)
-![datamuertos](README/final3.png)
+![datamuertos](README/final-3.png)
