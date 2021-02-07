@@ -45,8 +45,10 @@ Las historias de usuario que abarca la página web son:
 ### Proceso
 #### Prototipos de baja fidelidad
 Nuestros prototipos fueron testeados primeramente con un grupo de personas ajenas a Laboratoria y al proyecto, mediante una encuesta en donde se preguntaba si conocían la serie, si les parecía claro el flujo de la web, si pensaban que era complicado entender la funcionalidad de los botones y lo que hacía cada uno. De ese testeo, se arreglaron los detalles necesarios y después fue testeada con 2 duplas de Laboratoria que tambien se encontraban en el proyecto. 
-![prototipo](README/prototipo.png)
-![prototipo](README/segundoprototipo.jpg)
+
+<img src="/README/prototipo.png" alt="Primer prototipo"/>
+<img src="/README/segundoprototipo.png" alt="Segundo prototipo"/>
+
 
 #### Prototipos de alta fidelidad
 Como resultado de la sesión de test y feedback con las duplas de Laboratoria, surgieron algunos cambios en cuanto al diseño de menú, que, por ser ya mínimos, se iteraron en la primera versión de nuesto prototipo de alta fidelidad diseñado en Figma. [puedes verlo aquí](https://www.figma.com/file/rmiMSJjHgkZPMUMm5oX3yW/Rick%26Morty?node-id=0%3A1)
